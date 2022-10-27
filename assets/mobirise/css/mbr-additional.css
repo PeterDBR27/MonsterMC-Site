@@ -542,6 +542,25 @@ a.text-warning:focus {
     color: #C00FC0 !important
 }
 
+summary {
+    position: relative;
+    cursor: pointer;
+    padding: 1px;
+    padding-bottom: 5px;
+    align-self: center;
+    color: #01b904;
+}
+
+summary:hover,
+summary:focus {
+    position: relative;
+    cursor: pointer;
+    padding: 1px;
+    padding-bottom: 5px;
+    align-self: center;
+    color: #007a02;
+}
+
 a.text-danger:hover,
 a.text-danger:focus {
     color: #900 !important
@@ -617,6 +636,8 @@ a:hover {
     background: linear-gradient(45deg, #efefef, #efefef)
 }
 
+
+
 .cid-sqWJZ0OfOT .plan {
     word-break: break-word;
     position: relative;
@@ -657,6 +678,10 @@ a:hover {
 
 .cid-sqWJZ0OfOT .plan-body {
     background-color: #232323
+}
+
+.cid-sqWJZ0OfOT .plan-body b{
+    color: #e70000
 }
 
 .cid-sqWJZ0OfOT .price-value {
@@ -911,6 +936,7 @@ section.lazy-placeholder:after {
     transition: none;
     min-height: 77px
 }
+
 .cid-tgAlkMwNab .navbar {
     padding: .5rem 0;
     background: #20222c;
