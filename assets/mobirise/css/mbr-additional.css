@@ -633,7 +633,7 @@ a:hover {
 .cid-sqWJZ0OfOT {
     padding-top: 0px;
     padding-bottom: 0;
-    background: linear-gradient(45deg, #efefef, #efefef)
+    background-image: url(assets/images/teste.png);
 }
 
 
@@ -1413,10 +1413,6 @@ section.lazy-placeholder:after {
 .cid-tgAlkMwNab .nav-link:hover,
 .cid-tgAlkMwNab .dropdown-item:hover {
     color: #c1c1c1 !important
-}
-
-.cid-tgAlmp7Zas {
-    background-image: url(../../images/design-sem-nome.png)
 }
 
 .cid-tgArsi6YWU {
@@ -3411,7 +3407,7 @@ section.lazy-placeholder:after {
 }
 
 .cid-tgAwFovBoJ {
-    background-image: url(../../images/host1.png)
+    background-image: url(assets/images/teste.png)
 }
 
 .cid-tgAwHiytrU {

@@ -389,6 +389,83 @@ h1 {
     font-size: 2.5rem
 }
 
+#webApp-header__statistics .statistics__serverAndress {
+    display: inline-block;
+    color: var(--fontColor1);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: right;
+    cursor: pointer;
+    letter-spacing: .6px;
+    user-select: none
+}
+
+#cid-tgAlkMwNab .container {
+    display: flex;
+    justify-content: right;
+}
+
+#webApp-header__statistics .statistics__serverStatus {
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: right;
+    letter-spacing: .6px;
+    color: var(--fontColor1)
+}
+  
+@media (max-width:620px) {
+    #webApp-header__statistics .statistics__serverStatus {
+        position: relative;
+        right: 0;
+        transform: unset;
+        margin-top: 6px;
+        font-size: 15px
+    }
+}
+
+#webApp-header__statistics .btn-warning,
+#webApp-header__statistics .btn-warning:active {
+    background-color: #007a02 !important;
+    border-color: #007a02 !important;
+    color: #fff !important
+}
+
+#webApp-header__statistics .btn-warning:hover,
+#webApp-header__statistics .btn-warning:focus,
+#webApp-header__statistics .btn-warning.focus,
+#webApp-header__statistics .btn-warning.active {
+    color: #fff !important;
+    background-color: #01b904 !important;
+    border-color: #01b904 !important
+}
+
+#webApp-header__statistics .btn-warning.disabled,
+#webApp-header__statistics .btn-warning:disabled {
+    color: #fff !important;
+    background-color: #007a02 !important;
+    border-color: #007a02 !important
+}
+
+#webApp-header__statistics .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
 .h2,
 h2 {
     font-size: 2rem
@@ -11289,12 +11366,12 @@ a.text-info:hover {
 }
 
 .text-warning {
-    color: #ffc107 !important
+    color: #791579 !important
 }
 
 a.text-warning:focus,
 a.text-warning:hover {
-    color: #ba8b00 !important
+    color: #791579 !important
 }
 
 .text-danger {
